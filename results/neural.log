@@ -1,0 +1,10 @@
+cross-encoder scores
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 22029.71it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  tuned on 2021: {'alpha': 0.5, 'inc_view': 0.4, 'exc_view': 0.1, 'elig_w': 0.2}
+  MedCPT alone (topic view)    nDCG@10=0.5600 P@10=0.4360
+  Vega + MedCPT topic view     nDCG@10=0.5906 P@10=0.4680
+  + inclusion view             nDCG@10=0.6026 P@10=0.4800
+  + exclusion view             nDCG@10=0.6078 P@10=0.4880
+  Vega-Neural (full)           nDCG@10=0.6114 P@10=0.4940
+{"cv": [0.5531509004823553, 0.5949159459851316], "significance": [{"a": "BM25F zones (raw note)", "b": "Vega-Neural (full)", "delta": 0.14620366564197274, "t_p": 1.3265643590889663e-06, "wilcoxon_p": 1.2262650260360681e-06, "wins": 40, "losses": 8}, {"a": "Vega (full)", "b": "Vega-Neural (full)", "delta": 0.07807293777886137, "t_p": 0.0003810352279242006, "wilcoxon_p": 4.514223538949838e-05, "wins": 38, "losses": 9}]}

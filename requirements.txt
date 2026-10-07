@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+requests
+matplotlib
+streamlit
+torch
+transformers

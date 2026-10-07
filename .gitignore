@@ -1,0 +1,5 @@
+.venv/
+data/
+archive/polaris/data/
+__pycache__/
+*.pyc
